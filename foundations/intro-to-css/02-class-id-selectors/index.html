@@ -6,12 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class and ID Selectors</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+    .ja {
+      background-color: pink;
+      font-family: Verdana,  DejaVu, sans-serif;
+      
+    }
+    .and-font{
+      font-size: 24px;
+    }
+   #nein {
+    background-color: blue ;
+    font-size: 36px;
+     
+   }
+
+   #not {
+    background-color: greenyellow ;
+    font-size: 24px bold;
+
+   }
+   
+    </style>
+
   </head>
   <body>
-    <p>Number 1 - I'm a class!</p>
-    <div>Number 2 - I'm one ID.</div>
-    <p>Number 3 - I'm a class, but cooler!</p>
-    <div>Number 4 - I'm another ID.</div>
-    <p>Number 5 - I'm a class!</p>
+    <p class="ja">Number 1 - I'm a class!</p>
+    <div id="nein">Number 2 - I'm one ID.</div>
+    <p class="ja and-font">Number 3 - I'm a class, but cooler!</p>
+    <div id="not">Number 4 - I'm another ID.</div>
+    <p class="ja">Number 5 - I'm a class!</p>
   </body>
 </html>
